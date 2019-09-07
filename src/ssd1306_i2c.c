@@ -687,6 +687,7 @@ void mgos_ssd1306_start (struct mgos_ssd1306 *oled) {
 		mgos_usleep(200 * 1000);
 		mgos_gpio_write(rstPin, 1);	
 	}
+  void(oled);
 }
 
 bool mgos_ssd1306_init (void) {
